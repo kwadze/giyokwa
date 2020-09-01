@@ -2,15 +2,13 @@
   "name": "netma",
   "proxy": "http://127.0.0.1:5000",
   "version": "1.0.0",
-  "engines":{
-    "node": "12.8.3",
-    "npm": "6.14.9"
-  },
   "main": "index.js",
   "dependencies": {
+    "aws-sdk": "^2.742.0",
     "body-parser": "^1.19.0",
     "build": "^0.1.4",
     "dotenv": "^8.2.0",
+    "eslint-plugin-react": "^7.20.6",
     "express": "^4.17.1",
     "heroku": "^7.42.12",
     "jsonwebtoken": "^8.5.1",
@@ -18,6 +16,8 @@
     "mongo": "^0.1.0",
     "mongod": "^2.0.0",
     "mongoose": "^5.10.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
     "react": "^16.13.1",
     "react-hooks": "^1.0.1"
   },
@@ -26,6 +26,11 @@
     "@babel/core": "^7.11.1",
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react-hooks": "^2.5.1",
     "nodemon": "^2.0.2"
   },
   "scripts": {
@@ -35,14 +40,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://kwaclovis.github.io/giyokwa/issues"
+    "url": "https://netmaonline.github.io/netma/issues"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://kwaclovis.github.io/giyokwa"
+    "url": "https://netmaonline.github.io/netma"
   },
-  "home": "https://kwaclovis.github.io/giyokwa#readme"
-  
-  
+  "home": "https://netmaonline.github.io/netma#readme",
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
 }

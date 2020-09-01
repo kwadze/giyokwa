@@ -34,7 +34,7 @@ function App() {
             <button onClick={openMenu}>
               &#9776;
         </button>
-            <Link to="/" >NETMA B&D</Link>
+            <Link to="/" >NetMa B&D</Link>
           </div>
           <div className="header-links">
             <a href="cart.html">Cart</a>
@@ -44,7 +44,7 @@ function App() {
             }
             {userInfo && userInfo.isAdmin && (
               <div className="dropdown">
-                <a href="#"  >Admin</a>
+                <a href="/admin"  >Admin</a>
                 <ul className="dropdown-content">
                   <li>
                     <Link to="/orders">Orders</Link>
@@ -60,32 +60,31 @@ function App() {
           <button className="sidebar-close-button" onClick={closeMenu}>x</button>
           <ul className="categories">
             <li>
-              <Link to="/category/Pants">Clothing</Link>
-            </li>
-
-            <li>
-              <Link to="/category/Shirts">Softwares</Link>
+              <Link to="/category/clothing">Clothing</Link>
             </li>
             <li>
-              <Link to="/category/Shirts">Electronics</Link>
+              <Link to="/category/softwares">Softwares</Link>
             </li>
             <li>
-              <Link to="/category/Shirts">Fitness</Link>
+              <Link to="/category/electronics">Electronics</Link></li>          
+            <li>
+              <Link to="/category/fitness"> Fitness </Link>     
             </li>
             <li>
-              <Link to="/category/Shirts">Housing</Link>
+              <Link to="/category/housing">Housing</Link>
             </li>
             <li>
-              <Link to="/category/Shirts">Electricals</Link>
+              <Link to="/category/electricals">Electricals</Link>
+            </li>
+          
+            <li>
+              <Link to="/category/stationery">Stationery</Link>
             </li>
             <li>
-              <Link to="/category/Shirts">Stationery</Link>
+              <Link to="/category/groceries">Groceries</Link>
             </li>
             <li>
-              <Link to="/category/Shirts">Dairy products</Link>
-            </li>
-            <li>
-              <Link to="/category/Shirts">Cosmetics</Link>
+              <Link to="/category/cosmetics">Cosmetics</Link>
             </li>
             
 

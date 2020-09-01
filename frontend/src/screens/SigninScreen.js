@@ -51,10 +51,10 @@ function SigninScreen(props) {
           <button type="submit" className="button primary">Signin</button>
         </li>
         <li>
-          New to NETMA B&D ?
+          New to Netma?
         </li>
         <li>
-          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your NETMA account</Link>
+          <Link to={redirect === "/" ? "register" : "register?redirect=" + redirect} className="button secondary text-center" >Create your amazona account</Link>
         </li>
       </ul>
     </form>
