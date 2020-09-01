@@ -40,14 +40,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://netmaonline.github.io/netma/issues"
+    "url": "https://kwaclovis.github.io/giyokwa/issues"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://netmaonline.github.io/netma"
+    "url": "https://kwaclovis.github.io/giyokwa"
   },
-  "home": "https://netmaonline.github.io/netma#readme",
+  "home": "https://kwaclovis.github.io/giyokwa#readme",
   "engines": {
     "node": "12.4.0",
     "npm": "6.9.0"
